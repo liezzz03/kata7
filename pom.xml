@@ -81,7 +81,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>software.ulpgc.application.Main</mainClass>
+                                    <mainClass>software.ulpgc.application.downloader.Main</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
